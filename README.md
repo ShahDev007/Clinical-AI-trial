@@ -29,7 +29,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The Clinical-AI-trial project is a web application that extracts and processes clinical data from both URLs and uploaded documents (PDF, DOC, TXT). It uses OpenAI's API to analyze the extracted content and identify key medical information (like patient details, diagnoses, procedures). The processed data can then be exported to Excel files for further analysis or record-keeping.
+The Clinical-AI-trial project is a web application that extracts and processes clinical data from both URLs and uploaded documents (PDF, TXT). It uses OpenAI's API to analyze the extracted content and identify key medical information (like patient details, diagnoses, procedures). The processed data can then be exported to Excel files for further analysis or record-keeping.
 
 ### Built With
 
@@ -82,11 +82,11 @@ Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
 <!-- USAGE EXAMPLES -->
 ## Screenshots
 
-![docker](https://github.com/user-attachments/assets/9ac7eace-54f2-4472-902e-739137fa403e)
-
-
-![Screenshot 2024-11-15 115352](https://github.com/user-attachments/assets/b3447f6e-fe0f-4c5b-984b-567fecf6d326)
-
+![Screenshot 2024-11-17 210201](https://github.com/user-attachments/assets/ee74fb12-de66-416e-b6cf-d78ba8d4fb9f)
+<br><br>
+![image](https://github.com/user-attachments/assets/c0210289-b75f-43e3-b0ea-57ea15f9d6d2)
+<br><br>
+![Screenshot 2024-11-17 210052](https://github.com/user-attachments/assets/de888613-334e-4d2d-a3b2-87cfa9d38820)
 
 
 <p align="right">(<a href="#readme-top">Back to Top</a>)</p>

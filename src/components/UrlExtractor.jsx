@@ -8,7 +8,7 @@ export default function UrlExtractor() {
   const [isLoading, setIsLoading] = useState(false);
   const [existingFile, setExistingFile] = useState(null);
   const [uploadedFile, setUploadedFile] = useState(null);
-  const [uploadType, setUploadType] = useState("url"); // "url" or "file"
+  const [uploadType, setUploadType] = useState("url"); 
 
   const handleExportToExcel = () => {
     if (!extractedData) return;

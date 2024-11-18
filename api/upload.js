@@ -1,7 +1,7 @@
 const express = require("express");
 const axios = require("axios");
 const multer = require("multer");
-const upload = multer(); // This will store files in memory by default
+const upload = multer(); 
 require("dotenv").config();
 
 const app = express();
@@ -16,10 +16,8 @@ app.post("/api/upload", upload.single('file'), async (req, res) => {
     let content;
     
     if (req.file) {
-      // Get content directly from the file buffer
       content = req.file.buffer.toString('utf8');
     } else if (req.body.url) {
-      // Handle URL case
       const pageResponse = await axios.get(req.body.url);
       content = pageResponse.data;
     } else {
@@ -60,7 +58,6 @@ app.post("/api/upload", upload.single('file'), async (req, res) => {
   }
 });
 
-// Only start the server if we're running directly
 if (require.main === module) {
   app.listen(port, () => {
     console.log(`Server running on http://localhost:${port}`);
